@@ -85,7 +85,7 @@ body{
     position: absolute;
     opacity: 0;
     transform: rotate(180deg);
-    animation: move 4s linear infinite;
+    animation: move 5s linear infinite;
 }
 
 .loader-text div::after{
