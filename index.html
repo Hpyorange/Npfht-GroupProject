@@ -5,29 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Npfht homepage</title>
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/homepage.css">
+
 </head>
 <body>
-
-    <div class="container-fluid">
+<!-- header -->
+    <div class="container-fluid border-bottom">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
           <a href="/" class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
-            <img src="images/LOGO.png" alt="">
+            <img src="images/LOGO.png" alt="logo">
           </a>
     
-          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-4 link-dark l1">About us</a></li>
-            <li><a href="#" class="nav-link px-4 link-dark l1">Contact us</a></li>
-            <li><a href="#" class="nav-link px-4 link-dark l1">Patient Information</a></li>
-            <li><a href="#" class="nav-link px-4 link-dark l1">Programs & Services</a></li>
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fontStyle">
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle link-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">About Us</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item dp2" href="#">About the FHT</a></li>
+                <li><a class="dropdown-item dp2" href="#">Accessibility</a></li>
+                <li><a class="dropdown-item dp2" href="#">FAQ</a></li>
+                <li><a class="dropdown-item dp2" href="#">Job Postings</a></li>
+                <li><a class="dropdown-item dp2" href="#">News & Press Releases</a></li>
+                <li><a class="dropdown-item dp2" href="#">Ontario Health Teams</a></li>
+                <li><a class="dropdown-item dp2" href="#">Privacy Policy</a></li>
+                <li><a class="dropdown-item dp2" href="#">Quality Improvement</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle link-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Contact Us</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item dp2" href="#">Addresses</a></li>
+                <li><a class="dropdown-item dp2" href="#">Becoming a Patient</a></li>
+                <li><a class="dropdown-item dp2" href="#">Contact Information</a></li>
+                <li><a class="dropdown-item dp2" href="#">Feedback Form</a></li>
+                <li><a class="dropdown-item dp2" href="#">FHTs and Walk-in Clinics</a></li>
+                <li><a class="dropdown-item dp2" href="#">Hours of Operation</a></li>
+                <li><a class="dropdown-item dp2" href="#">Patient Experience Survey</a></li>
+                <li><a class="dropdown-item dp2" href="#">Telephone Health Advisory (THAS)</a></li>
+                <li><a class="dropdown-item dp2" href="#">Urgent Care Access</a></li>
+                <li><a class="dropdown-item dp2" href="#">Useful Links</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle link-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Patient Information</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item dp2" href="#">COVID-19:Information for Patients</a></li>
+                <li><a class="dropdown-item dp2" href="#">In Person & Virtual Appointments</a></li>
+                <li><a class="dropdown-item dp2" href="#">Ontario Health Links</a></li>
+                <li><a class="dropdown-item dp2" href="#">Prescription Renewal</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle link-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Programs & Services</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item dp2" href="#">Diet & Exercise</a></li>
+                <li><a class="dropdown-item dp2" href="#">Prenatal, Obstetrical & Baby Care</a></li>
+                <li><a class="dropdown-item dp2" href="#">Mental Health</a></li>
+                <li><a class="dropdown-item dp2" href="#">Elderly Care</a></li>
+                <li><a class="dropdown-item dp2" href="#">Prevention</a></li>
+                <li><a class="dropdown-item dp2" href="#">Diabetes</a></li>
+                <li><a class="dropdown-item dp2" href="#">Other Programs & Services</a></li>
+              </ul>
+            </li>
+
           </ul>
     
           <div class="col-md-2 text-center">
-            <button type="button"  onclick="window.location.href='loginPage.html';" class="btn btn-outline-primary me-2 mybtnlogin">Login</button>
+            <button type="button" onclick="window.location.href='loginPage.html';" class="btn btn-outline-primary me-2 mybtnlogin">Login</button>
           </div>
         </header>
-      </div>
+    </div>
 
 </body>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
 </html>
