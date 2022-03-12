@@ -38,3 +38,47 @@
 .border-bottom{
     border-bottom: 3px solid #dee2e6!important;
 }
+
+.bg1{
+    height: 700px;
+    background: url("../images/banner/appointment.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.bg2{
+    height: 700px;
+    background: url("../images/banner/banner2.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff; 
+}
+
+.bg3{
+    height: 700px;
+    background: url("../images/banner/banner3.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff; 
+}
+
+.mybtnBook{
+    width: 288px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4A6EC7;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}

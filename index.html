@@ -12,6 +12,7 @@
 </head>
 <body>
 <!-- header -->
+
     <div class="container-fluid border-bottom">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
           <a href="/" class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
@@ -52,7 +53,7 @@
             <li class="nav-item dropdown ">
               <a class="nav-link dropdown-toggle link-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Patient Information</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item dp2" href="#">COVID-19:Information for Patients</a></li>
+                <li><a class="dropdown-item dp2" href="#">COVID-19: Information for Patients</a></li>
                 <li><a class="dropdown-item dp2" href="#">In Person & Virtual Appointments</a></li>
                 <li><a class="dropdown-item dp2" href="#">Ontario Health Links</a></li>
                 <li><a class="dropdown-item dp2" href="#">Prescription Renewal</a></li>
@@ -79,6 +80,64 @@
           </div>
         </header>
     </div>
+
+<!-- banner -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- 指示符 -->
+     <div class="carousel-indicators">
+       <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+       <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+       <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+     </div>
+     
+     <!-- 轮播图片 -->
+     <div class="carousel-inner">
+       
+       <div class="carousel-item active">
+        <div class="px-4 text-center bg1 align-items-center">
+          <h1 class="display-5 fw-bold">North Peel</h1>
+          <h2 class="display-5 fw-bold ">Family Health Team</h2>
+          <div class="col-lg-6 mx-auto mt-4">
+            <div class="d-grid d-sm-flex justify-content-sm-center">
+              <button type="button" onclick="window.location.href='loginPage.html';" class="btn btn-outline-primary me-2 mybtnBook">Book an Appointment</button>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <div class="carousel-item">
+        <div class="px-4 text-center bg2 align-items-center">
+          <h1 class="display-5 fw-bold">Health & Nutrition Resources</h1>
+          <div class="col-lg-6 mx-auto mt-4">
+            <div class="d-grid d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-outline-primary me-2 mybtnBook">Read More</button>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       <div class="carousel-item ">
+        <div class="px-4 text-center bg3 align-items-center">
+          <h1 class="display-5 fw-bold">COVID-19: Information for Patients</h1>
+          <div class="col-lg-6 mx-auto mt-4">
+            <div class="d-grid d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-outline-primary me-2 mybtnBook">Read More</button>
+            </div>
+          </div>
+        </div>
+       </div>
+
+     </div>
+     
+     <!-- 左右切换按钮 -->
+     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon"></span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+       <span class="carousel-control-next-icon"></span>
+     </button>
+   </div>
 
 </body>
 
