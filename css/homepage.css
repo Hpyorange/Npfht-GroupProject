@@ -18,6 +18,7 @@
 
 .mybtnlogin:hover{
     background-color: #0038C2;
+    color: #fff;
 }
 
 .fontStyle{
@@ -68,6 +69,17 @@
     color: #fff; 
 }
 
+.bg4{
+    height: 700px;
+    background: url("../images/banner/banner4.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;  
+}
+
 .mybtnBook{
     width: 288px;
     height: 48px;
@@ -77,4 +89,84 @@
     color: #fff;
     font-size: 20px;
     font-weight: 700;
+}
+
+.mybtnBook:hover{
+    background-color: #0038C2;
+    color: #fff;
+}
+
+.mybtnbanner{
+    width: 288px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #57B89A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mybtnbanner:hover{
+    background-color: #02BC82;
+    color: #fff;
+}
+
+.subText{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.subHeading{
+    font-size: 36px;
+    color: #7A5794;
+}
+
+.bgForm{
+ 
+    height: 600px;
+    background-color: #E2E6F0;
+}
+
+.bgHour{
+    height: 600px;
+    background-color: #4A6EC7;
+}
+
+.bgtest{
+    background-color: aquamarine;
+    height: 600px;
+}
+
+.subTextW{
+    color: #fff;
+    font-size: 24px;
+}
+
+.subHeadingW{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 550;
+}
+
+.subHeading1{
+    color: #4A6EC7;
+    font-size: 36px;
+    font-weight: 550;
+}
+
+.mybtnP{
+    width: 288px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #7A5794;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mybtnP:hover{
+    background-color: #54038F;
+    color: #fff;
 }
