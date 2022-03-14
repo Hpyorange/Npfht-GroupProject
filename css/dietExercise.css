@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik";
+}
+
+.mybtnlogin{
+    width: 128px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4A6EC7;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mybtnlogin:hover{
+    background-color: #0038C2;
+    color: #fff;
+}
+
+.fontStyle{
+
+    font-size: 20px;
+    font-weight: 550;
+    color: #000 !important;
+}
+
+.dp2{
+    font-size: 18px;
+}
+
+.dp2:hover{
+    color: #4A6EC7 !important;
+}
+
+.heading{
+    color: #4A6EC7;
+}
+
+.mybtnBook{
+    width: 288px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4A6EC7;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mybtnBook:hover{
+    background-color: #0038C2;
+    color: #fff;
+}
+
+.subHeading{
+    font-size: 36px;
+    font-weight: 550;
+}
+
+.subText{
+    font-size: 24px;
+    font-weight: 500;
+}

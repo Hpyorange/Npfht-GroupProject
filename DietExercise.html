@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Npfht homepage</title>
+    <title>Diet & Exercise</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/dietExercise.css">
 
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol id="facebook" viewBox="0 0 16 16">
@@ -23,9 +23,9 @@
 
 </head>
 <body>
-<!-- header -->
 
-    <div class="container-fluid">
+    <!--header-->
+    <div class="container-fluid border-bottom">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
           <a href="/" class="d-flex align-items-center col-md-2 mb-2 mb-md-0 text-dark text-decoration-none">
             <img src="images/LOGO.png" alt="logo">
@@ -88,174 +88,127 @@
           </ul>
     
           <div class="col-md-2 text-center">
-            <button type="button" onclick="window.location.href='loginPage.html';"class="btn me-2 mybtnlogin">Login</button>
+            <button type="button" onclick="window.location.href='loginPage.html';" class="btn me-2 mybtnlogin">Login</button>
           </div>
         </header>
     </div>
 
-<!-- banner -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+    <!--content-->
+    <h1 class="px-5 display-5 heading fw-bold mt-4 py-4">Diet & Exercise</h1>
 
-      <!-- 指示符 -->
-     <div class="carousel-indicators">
-       <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-       <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-       <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-       <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-     </div>
-     
-     <!-- 轮播图片 -->
-     <div class="carousel-inner">
-       
-       <div class="carousel-item active">
-        <div class="px-4 text-center bg1 align-items-center">
-          <h1 class="display-5 fw-bold">North Peel</h1>
-          <h2 class="display-5 fw-bold ">Family Health Team</h2>
-          <div class="col-lg-6 mx-auto mt-4">
-            <div class="d-grid d-sm-flex justify-content-sm-center">
-              <button type="button" onclick="window.location.href='loginPage.html';" class="btn me-2 mybtnBook">Book an Appointment</button>
+    <div class="container-fluid col-xl-12 p-0 mt-5 ">
+
+        <div class="row flex-lg-row">
+      
+        <div class="col-lg-6 col-md-12 mb-4 ">
+          <h2 class="subHeading my-4 text-center">Dietician</h2>
+          <div class="container mt-3 text-center">
+            <img src="images/DietExercise/1.png" class="img-fluid" alt="Dietician">
+          </div>
+          <div class="container-fluid text-center"><button type="button" class="btn mybtnBook mt-5">More Info</button></div>
+        </div>
+      
+        <div class="col-lg-6 col-md-12 mb-4">
+
+            <h2 class="subHeading my-4 text-center">Health & Nutrition Resources</h2>
+
+            <div class="container mt-3 text-center">
+              <img src="images/DietExercise/2.png" class="img-fluid" alt="Health & Nutrition Resources">
             </div>
-          </div>
-        </div>
-       </div>
 
-       <div class="carousel-item">
-        <div class="px-4 text-center bg2 align-items-center">
-          <h1 class="display-5 fw-bold">COVID-19: Information</h1>
-          <p class="subText mt-4">For covid-19 click here to get the latest updates and FAQs</p>
-          <div class="col-lg-6 mx-auto mt-4">
-            <div class="d-grid d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn me-2 mybtnbanner">Patient Information</button>
+            <div class="container-fluid text-center"><button type="button" onclick="window.location.href='HealthNutritionR.html'" class="btn mybtnBook mt-5">More Info</button></div>
+
+          </div>
+      
+        </div>
+      
+    </div>
+
+    <div class="container-fluid col-xl-12 p-0 mt-5 ">
+
+        <div class="row flex-lg-row">
+      
+        <div class="col-lg-6 col-md-12 mb-4">
+          <h2 class="subHeading my-4 text-center">Nutrition & Health Program</h2>
+          <div class="container mt-3 text-center">
+            <img src="images/DietExercise/3.png" class="img-fluid" alt="Nutrition & Health Program">
+          </div>
+          <div class="container-fluid text-center"><button type="button"class="btn mybtnBook mt-5">More Info</button></div>
+        </div>
+        <div class="col-lg-6 col-md-12 mb-4">
+
+            <h2 class="subHeading my-4 text-center">Weight Loss Program</h2>
+
+            <div class="container mt-3 text-center">
+              <img src="images/DietExercise/4.png" class="img-fluid" alt="Weight Loss Program">
             </div>
+
+            <div class="container-fluid text-center"><button type="button" class="btn mybtnBook mt-5">More Info</button></div>
+
           </div>
+      
         </div>
-       </div>
+      
+    </div>
 
-       <div class="carousel-item">
-        <div class="px-4 text-center bg3 align-items-center">
-          <h1 class="display-5 fw-bold">Managing Depression</h1>
-          <p class="subText mt-4">The North Peel FHT Mental Health and Social Worker provides assessment, short-term<br>counselling, therapy, patient education, advocacy and referral to community resources.</p>
+    <div class="container-fluid col-xl-12 p-0 mt-5 ">
 
-          <div class="col-lg-6 mx-auto mt-4">
-            <div class="d-grid d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn me-2 mybtnbanner">Programs And Services</button>
+        <div class="row flex-lg-row">
+      
+        <div class="col-lg-6 col-md-12 mb-4">
+          <h2 class="subHeading my-4 px-3 text-center">Walking Club Program</h2>
+          <div class="container mt-3 text-center">
+            <img src="images/DietExercise/5.png" class="img-fluid" alt="Walking Club Program">
+          </div>
+          <div class="container-fluid text-center"><button type="button" class="btn mybtnBook mt-5">More Info</button></div>
+        </div>
+      
+        <div class="col-lg-6 col-md-12 mb-4">
+
+            <h2 class="subHeading my-4 text-center">Lifestyle</h2>
+
+            <div class="container mt-3 text-center">
+              <img src="images/DietExercise/6.png" class="img-fluid" alt="Lifestyle">
             </div>
+
+            <div class="container-fluid text-center"><button type="button" class="btn mybtnBook mt-5">More Info</button></div>
+
           </div>
+      
         </div>
-       </div>
-
-       <div class="carousel-item">
-        <div class="px-4 text-center bg4 align-items-center">
-          <h1 class="display-5 fw-bold">Urgent Care</h1>
-          <p class="subText mt-4">When you need urgent care please call to see if it can be<br>provided by North Peel FHT physicians or nurse practitioner</p>
-          <div class="col-lg-6 mx-auto mt-4">
-            <div class="d-grid d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn me-2 mybtnbanner">Contact Us</button>
-            </div>
-          </div>
-        </div>
-       </div>
-
-     </div>
-     
-     <!-- 左右切换按钮 -->
-     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-       <span class="carousel-control-prev-icon"></span>
-     </button>
-     <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-       <span class="carousel-control-next-icon"></span>
-     </button>
-   </div>
-
-<!-- About us section -->
-
-<div class="container-fluid p-0 mb-4 border-bottom">
-  <div class="row flex-lg-row-reverse align-items-center ">
-    <div class="col-sm-12 col-lg-6">
-      <img src="images/homePic/AboutUs.png" class="d-block mx-lg-auto img-fluid" alt="about us" width="100%" height="665" loading="lazy">
-    </div>
-    <div class="col-lg-5">
-      <h1 class="subHeading fw-bold lh-1 mb-4">About North PeelFamily Health Team</h1>
-      <p class="subText mb-5">Simply put, we're people like you. People who care about their health and the health of their families and community. People who appreciate the value of personal relationships. People who understand the value of time. That's why our core team of family physicians—Dr. McCallion, Dr. Manning, Dr. Gopalapillai, and Dr. Tracey—came together with the Ministry of Health and Long Term Care to form the North Peel Family Health Team.</p>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <button type="button" class="btn me-2 mybtnbanner">Read More</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Contact us section -->
-
-<div class="container-fluid col-xl-10 p-0 d-flex mt-5 justify-content-center">
-
-  <div class="row flex-lg-row">
-
-  <div class="col-lg-6 col-md-12 bgForm mb-4 px-4">
-    <h2 class="subHeading1 my-4 px-3">Contact</h2>
-    <div class="container mt-3">
-      <form>
-
-        <div class="row p-0">
-          <div class="col p-0 ">
-            <input type="text" class="form-control form-control-lg" placeholder="Name" name="name">
-          </div>
-          <div class="col p-0">
-            <input type="text" class="form-control form-control-lg" placeholder="Phone Number" name="pN">
-          </div>
-        </div>
-
-        <div class="row p-0 mt-4">
-          <div class="col p-0">
-            <input type="text" class="form-control form-control-lg" placeholder="Email" name="email">
-          </div>
-        </div>
-
-      </form>
+      
     </div>
 
-    <div class="container mt-3 px-3">
-      <form action="/action_page.php">
-        <div class="mb-3 mt-3 p-0">
-          <label for="comment">Type your message here:</label>
-          <textarea class="form-control " rows="5" id="comment" name="text"></textarea>
+    <div class="container-fluid col-xl-12 p-0 mt-5 justify-content-center">
+
+        <div class="row flex-lg-row justify-content-center">
+      
+        <div class="col-lg-6 col-md-12 mb-4">
+          <h2 class="subHeading my-4 text-center">Craving Change Program</h2>
+          <div class="container mt-3 text-center">  
+            <img src="images/DietExercise/7.png" class="img-fluid" alt="Craving Change Program">
+          </div>
+          <div class="container-fluid text-center"><button type="button" class="btn mybtnBook mt-5">More Info</button></div>
         </div>
-        <div class="container-fluid text-center"><button type="button" class="btn mybtnP mt-5">Send</button></div>
-      </form>
+      
+
+      
+        </div>
+      
     </div>
 
-  </div>
-
-  <div class="col-lg-6 col-md-12 bgHour mb-4 px-5">
-    <h2 class="subHeadingW my-4">Open Hours:</h2>
-    <p class="subTextW">Mon,Tue,Thu: 9am to 5pm <br>
-      Wed: 9am to 8pm <br>
-      Fri: 9am to 4pm <br>
-      Sat: Closed</p>
-    <h2 class="subHeadingW my-4">Location:</h2>
-    <p class="subTextW">Suite 204, 157 Queen St East
-      Brampton,<br>
-      ON, L6W 3X4 <br>
-      Phone: (905)-459-2181</p>
-      <div class="container-fluid text-center"><button type="button" class="btn mybtnbanner mt-5">More Locations</button></div>
-  </div>
-
-  </div>
-
-</div>
-
-<!-- footer -->
-<div class="container-fluid">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <span class="subText px-5">© 2022 Company, Inc</span>
+    <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="subText px-5">© 2022 Company, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3 px-5"><a class="text-muted" href="#"><svg width="40" height="40"><use xlink:href="#facebook"></use></svg></a></li>
+            <li class="ms-3 px-5"><a class="text-muted" href="#"><svg width="40" height="40"><use xlink:href="#instagram"></use></svg></a></li>
+          </ul>
+        </footer>
     </div>
-
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <li class="ms-3 px-5"><a class="text-muted" href="#"><svg width="40" height="40"><use xlink:href="#facebook"></use></svg></a></li>
-      <li class="ms-3 px-5"><a class="text-muted" href="#"><svg width="40" height="40"><use xlink:href="#instagram"></use></svg></a></li>
-    </ul>
-  </footer>
-</div>
 
 </body>
 
